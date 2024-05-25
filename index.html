@@ -3,46 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Valentin Lhermitte - CV</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Valentin Lhermitte</h1>
+        <p>MSc in Computer Science</p>
+        <div class="contact-info">
+            <a href="https://www.linkedin.com/in/valentin-lhermitte">LinkedIn</a> |
+            <a href="https://github.com/Vlhermitte">GitHub</a> |
+            <a href="mailto:vlh2604@gmail.com">Email</a>
+        </div>
     </header>
-
     <section id="about">
         <h2>About Me</h2>
-        <p>Brief introduction</p>
+        <p>
+            I am a Belgian student currently studying for a Master of Science in Computer Vision and Image Processing at Czech Technical University in Prague. 
+            I am passionate about Computer Vision and its applications in the medical field as well a 3D reconstruction.
+        </p>
     </section>
-
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>2023-Present: Master of Science in Computer Vision and Image Processing at Czech Technical University, Prague, Czech Republic</li>
+            <li>2022: Erasmus+ in Artificial Intelligence at Satakunta University of Applied Sciences, Pori, Finland</li>
+            <li>2020-2023: Bachelor of Science in Computer Science at Henallux, Namur, Belgium</li>
+            <li>2019-2020: First year of Bachelor in Computer Science at UCLouvain, Louvain-la-Neuve, Belgium</li>
+            <li>2018-2019: CESS Electromechanical at IAMP Pierrard, Virton, Belgium</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> Java, C#, C, C++, Latex, Matlab, Python, PyTorch, Tensorflow, OpenCV, OpenGL</li>
+            <li><strong>Database:</strong> SQL, MongoDB, Redis, Neo4J, Cassandra</li>
+            <li><strong>Development Environment:</strong> IntelliJ, Pycharm, Clion, Visual Studio Code</li>
+            <li><strong>Operating Systems:</strong> Mac OS X, Windows 10/11, Linux Debian, Linux CentOS</li>
+        </ul>
+    </section>
+    <section id="experience">
+        <h2>Professional Experiences</h2>
+        <ul>
+            <li>2023: <strong>Internship</strong> at EVS Broadcast Equipment, Liège, Belgium
+                <p>
+                    Development of a testing framework for the Virtual Offside line accuracy of the VAR system used byt the FIFA
+                    <br>
+                    It envolved generateing a synthetic image of a football field and geometric data to test the accuracy of the VAR system.
+                </p>
+                <p><strong>Technologies:</strong> Git, C++, Python, OpenCV, Unreal Engine 5</p>
+            </li>
+    </section>
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
-        </div>
-        <!-- Add more project sections as needed -->
+        <ul>
+            <li>Lens Distortion OpenGL: <a href="https://github.com/Vlhermitte/LensDistortionOpenGL">ComputerGraphicsProject</a>
+                <p>Personal project to simulate radial and tengential lens distortion in real time using OpenGL.</p>
+                <p><strong>Technologies:</strong> Git, C++, OpenGL, GLSL</p>
+            </li>
+            <li>Two View Scene Reconstruction: <a href="https://github.com/Vlhermitte/Two-view-Scene-Reconstruction">Two View Scene Reconstruction</a>
+                <p>Personal project to reconstruct a 3D scene from two images using local feature matching, epipolar geometry estimation with LO-RANSAC and triangulation.</p>
+                <p><strong>Technologies:</strong> Git, Python, OpenCV, NumPy</p>
+            <li>SKIN CANCER CLASSIFICATION 2022: <a href="https://github.com/Vlhermitte/Skin_cancer_classification">Skin Cancer Classification</a>
+                <p>Personal project to classify images of different skin cancers using Convolutional Neural Network.</p>
+                <p><strong>Technologies:</strong> Git, Python, Tensorflow</p>
+            </li>
+        </ul>
     </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: vlh2604@gmail.com</p>
-    </section>
-
     <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2024 Valentin Lhermitte</p>
     </footer>
 </body>
 </html>
