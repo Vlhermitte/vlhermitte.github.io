@@ -3,79 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentin Lhermitte</title>
+    <title>Valentin Lhermitte - Computer Vision Specialist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Valentin Lhermitte</h1>
         <p>MSc in Computer Vision and Image Processing</p>
-        <div class="contact-info">
-            <a href="https://www.linkedin.com/in/valentin-lhermitte">LinkedIn</a> |
-            <a href="https://github.com/Vlhermitte">GitHub</a> |
-            <a href="mailto:vlh2604@gmail.com">Email</a>
-        </div>
+        <nav class="contact-info">
+            <a href="https://www.linkedin.com/in/valentin-lhermitte" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/Vlhermitte" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+            <a href="mailto:vlh2604@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        </nav>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a Belgian student currently studying for a Master of Science in Computer Vision and Image Processing at Czech Technical University in Prague. 
-            I am passionate about Computer Vision and its applications in the medical field as well as 3D reconstruction.
-        </p>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>2023-Present: Master of Science in Computer Vision and Image Processing at Czech Technical University, Prague, Czech Republic</li>
-            <li>2022: Erasmus+ in Artificial Intelligence at Satakunta University of Applied Sciences, Pori, Finland</li>
-            <li>2020-2023: Bachelor of Science in Computer Science at Henallux, Namur, Belgium</li>
-            <li>2019-2020: First year of Bachelor in Computer Science at UCLouvain, Louvain-la-Neuve, Belgium</li>
-            <li>2018-2019: CESS Electromechanical at IAMP Pierrard, Virton, Belgium</li>
-        </ul>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Programming:</strong> Java, C#, C, C++, Latex, Matlab, Python, PyTorch, Tensorflow, OpenCV, OpenGL</li>
-            <li><strong>Database:</strong> SQL, MongoDB, Redis, Neo4J, Cassandra</li>
-            <li><strong>Development Environment:</strong> IntelliJ, Pycharm, Clion, Visual Studio Code</li>
-            <li><strong>Operating Systems:</strong> Mac OS X, Windows 10/11, Linux Debian, Linux CentOS</li>
-        </ul>
-    </section>
-    <section id="experience">
-        <h2>Professional Experiences</h2>
-        <ul>
-            <li>2023: <strong>Internship</strong> at EVS Broadcast Equipment, Liège, Belgium
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a Belgian student currently pursuing a Master of Science in Computer Vision and Image Processing at Czech Technical University in Prague.
+                My passion lies in Computer Vision, with a particular focus on its applications in the medical field and 3D reconstruction.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>2023-Present:</strong> MSc in Computer Vision and Image Processing - Czech Technical University, Prague, Czech Republic</li>
+                <li><strong>2022:</strong> Erasmus+ in Artificial Intelligence - Satakunta University of Applied Sciences, Pori, Finland</li>
+                <li><strong>2020-2023:</strong> BSc in Computer Science - Henallux, Namur, Belgium</li>
+                <li><strong>2019-2020:</strong> First year of BSc in Computer Science - UCLouvain, Louvain-la-Neuve, Belgium</li>
+                <li><strong>2018-2019:</strong> CESS Electromechanical - IAMP Pierrard, Virton, Belgium</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="fas fa-database"></i>SQL</div>
+                        <div class="skill-item"><i class="fas fa-database"></i>MongoDB</div>
+                        <div class="skill-item"><i class="fas fa-database"></i>Redis</div>
+                        <div class="skill-item"><i class="fas fa-database"></i>Neo4J</div>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="fab fa-python"></i>Python</div>
+                        <div class="skill-item"><i class="fas fa-code"></i>C++</div>
+                        <div class="skill-item"><i class="fas fa-code"></i>C</div>
+                        <div class="skill-item"><i class="fab fa-java"></i>Java</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Computer Vision & AI</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="fas fa-brain"></i>Machine Learning</div>
+                        <div class="skill-item"><i class="fas fa-network-wired"></i>Deep Learning</div>
+                        <div class="skill-item"><i class="fas fa-robot"></i>Self-supervised Learning</div>
+                        <div class="skill-item"><i class="fas fa-cube"></i>3D Computer Vision</div>
+                        <div class="skill-item"><i class="fas fa-image"></i>Image Processing</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <article>
+                <h3>Internship at EVS Broadcast Equipment</h3>
+                <p><strong>Location:</strong> Liège, Belgium</p>
+                <p><strong>Duration:</strong> 2023</p>
                 <p>
-                    Development of a testing framework for the Virtual Offside line accuracy of the VAR system used by the FIFA
-                    <br>
-                    It envolved generateing a synthetic image dataset of a football field and geometric data to test the accuracy of the VAR system.
+                    Developed a testing framework for the Virtual Offside line accuracy of the VAR system used by FIFA.
+                    The project involved generating synthetic images of football fields and geometric data to test the VAR system's accuracy.
                 </p>
-                <p><strong>Technologies:</strong> Git, C++, Python, OpenCV, Unreal Engine 5</p>
-            </li>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Lens Distortion OpenGL: <a href="https://github.com/Vlhermitte/LensDistortionOpenGL">Lens Distortion OpenGL</a>
-                <p>Simulation of radial and tengential lens distortion in real time using OpenGL.</p>
-                <p><strong>Technologies:</strong> Git, C++, OpenGL, GLSL</p>
-            </li>
-            <li>Two View Scene Reconstruction: <a href="https://github.com/Vlhermitte/Two-view-Scene-Reconstruction">Two View Scene Reconstruction</a>
-                <p>3D scene reconstruction from two images using local feature matching, epipolar geometry estimation with LO-RANSAC and triangulation.</p>
-                <p><strong>Technologies:</strong> Git, Python, OpenCV, NumPy</p>
-            <li>Self Supervised Metric Learning: <a href="https://github.com/Vlhermitte/SelfSupervisedMetricLearning">SelfSupervisedMetricLearning</a>
-                <p>Self-Supervised learning model for blood cell images with 2 approches : using Triplet loss or using Contrastive loss</p>
-                <p><strong>Technologies:</strong> Git, Python, PyTorch</p>
-            </li>
-            <li>Retina Vessel Segmentation: <a href="https://github.com/Vlhermitte/RetinaVesselSegmentation">RetinaVesselSegmentation</a>
-                <p>Retinal Vessel Sementic Segmentation with U-Net and Dice loss</p>
-                <p><strong>Technologies:</strong> Git, Python, PyTorch, Monai</p>
-            </li>
-        </ul>
-    </section>
+                <p><strong>Technologies used:</strong> Git, C++, Python, OpenCV, Unreal Engine 5</p>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Lens Distortion OpenGL</h3>
+                    <p>Simulation of radial and tengential lens distortion in real time using OpenGL.</p>
+                    <p><strong>Technologies: </strong>C++, OpenGL, GLSL</p>
+                    <a href="https://github.com/Vlhermitte/LensDistortionOpenGL" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </article>
+                <article class="project-card">
+                    <h3>Two View Scene Reconstruction</h3>
+                    <p>3D scene reconstruction from two images using local feature matching, epipolar geometry estimation with LO-RANSAC and triangulation.</p>
+                    <p><strong>Technologies: </strong>Python, OpenCV, NumPy</p>
+                    <a href="https://github.com/Vlhermitte/Two-view-Scene-Reconstruction" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </article>
+                <article class="project-card">
+                    <h3>Retina Vessel Segmentation</h3>
+                    <p>Retinal Vessel Sementic Segmentation with U-Net and Dice loss</p>
+                    <p><strong>Technologies: </strong>Python, Pytorch, Monai</p>
+                    <a href="https://github.com/Vlhermitte/RetinaVesselSegmentation" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </article>
+                <article class="project-card">
+                    <h3>Self Supervised Metric Learning</h3>
+                    <p>Self-Supervised learning model for blood cell images with 2 approches : using Triplet loss or using Contrastive loss</p>
+                    <p><strong>Technologies: </strong>Python, Pytorch</p>
+                    <a href="https://github.com/Vlhermitte/SelfSupervisedMetricLearning" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2024 Valentin Lhermitte</p>
+        <p>&copy; 2024 Valentin Lhermitte. All rights reserved.</p>
     </footer>
 </body>
 </html>
