@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentin Lhermitte - Computer Vision Specialist</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,6 +20,7 @@
     </header>
 
     <main>
+
         <section id="about">
             <h2>About Me</h2>
             <p>
@@ -45,14 +47,14 @@
                     <h3>Databases</h3>
                     <div class="skill-grid">
                         <div class="skill-item"><i class="fas fa-database"></i>SQL</div>
-                        <div class="skill-item"><i class="fas fa-database"></i>MongoDB</div>
                         <div class="skill-item"><i class="fas fa-database"></i>Redis</div>
-                        <div class="skill-item"><i class="fas fa-database"></i>Neo4J</div>
+                        <div class="skill-item"><i class='bx bxs-network-chart'></i>Neo4J</div>
+                        <div class="skill-item"><i class='bx bxl-mongodb'></i>MongoDB</div>
                     </div>
                     <h3>Programming Languages</h3>
                     <div class="skill-grid">
                         <div class="skill-item"><i class="fab fa-python"></i>Python</div>
-                        <div class="skill-item"><i class="fas fa-code"></i>C++</div>
+                        <div class="skill-item"><i class='bx bxl-c-plus-plus'></i>C++</div>
                         <div class="skill-item"><i class="fas fa-code"></i>C</div>
                         <div class="skill-item"><i class="fab fa-java"></i>Java</div>
                     </div>
@@ -60,8 +62,8 @@
                 <div class="skill-category">
                     <h3>Computer Vision & AI</h3>
                     <div class="skill-grid">
-                        <div class="skill-item"><i class="fas fa-brain"></i>Machine Learning</div>
-                        <div class="skill-item"><i class="fas fa-network-wired"></i>Deep Learning</div>
+                        <div class="skill-item"><i class="fas fa-network-wired"></i>Machine Learning</div>
+                        <div class="skill-item"><i class="fas fa-brain"></i>Deep Learning</div>
                         <div class="skill-item"><i class="fas fa-robot"></i>Self-supervised Learning</div>
                         <div class="skill-item"><i class="fas fa-cube"></i>3D Computer Vision</div>
                         <div class="skill-item"><i class="fas fa-image"></i>Image Processing</div>
@@ -89,35 +91,45 @@
             <div class="project-grid">
                 <article class="project-card">
                     <h3>Lens Distortion OpenGL</h3>
-                    <p>Simulation of radial and tengential lens distortion in real time using OpenGL.</p>
-                    <p><strong>Technologies: </strong>C++, OpenGL, GLSL</p>
-                    <a href="https://github.com/Vlhermitte/LensDistortionOpenGL" class="project-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> View on GitHub
-                    </a>
+                    <p>
+                        OpenGL-based simulation of lens distortion, featuring real-time modeling and dataset generation for camera calibration research.
+                    </p>
+                    <div class="project-footer">
+                        <p class="project-technologies"><strong>Technologies:</strong> Git, C++, OpenGL, GLSL</p>
+                        <a href="https://github.com/Vlhermitte/LensDistortionOpenGL" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
                 </article>
                 <article class="project-card">
                     <h3>Two View Scene Reconstruction</h3>
                     <p>3D scene reconstruction from two images using local feature matching, epipolar geometry estimation with LO-RANSAC and triangulation.</p>
-                    <p><strong>Technologies: </strong>Python, OpenCV, NumPy</p>
-                    <a href="https://github.com/Vlhermitte/Two-view-Scene-Reconstruction" class="project-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> View on GitHub
-                    </a>
+                    <div class="project-footer">
+                        <p class="project-technologies"><strong>Technologies:</strong> Git, Python, OpenCV, NumPy</p>
+                        <a href="https://github.com/Vlhermitte/Two-view-Scene-Reconstruction" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
                 </article>
                 <article class="project-card">
                     <h3>Retina Vessel Segmentation</h3>
                     <p>Retinal Vessel Sementic Segmentation with U-Net and Dice loss</p>
-                    <p><strong>Technologies: </strong>Python, Pytorch, Monai</p>
-                    <a href="https://github.com/Vlhermitte/RetinaVesselSegmentation" class="project-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> View on GitHub
-                    </a>
+                    <div class="project-footer">
+                        <p class="project-technologies"><strong>Technologies: </strong>Python, Pytorch, Monai</p>
+                        <a href="https://github.com/Vlhermitte/RetinaVesselSegmentation" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
                 </article>
                 <article class="project-card">
                     <h3>Self Supervised Metric Learning</h3>
-                    <p>Self-Supervised learning model for blood cell images with 2 approches : using Triplet loss or using Contrastive loss</p>
-                    <p><strong>Technologies: </strong>Python, Pytorch</p>
-                    <a href="https://github.com/Vlhermitte/SelfSupervisedMetricLearning" class="project-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> View on GitHub
-                    </a>
+                    <p>Self-Supervised learning model for blood cell images with 2 approches : Triplet loss with batch hard negative mining or Contrastive loss</p>
+                    <div class="project-footer">
+                        <p class="project-technologies"><strong>Technologies: </strong>Python, Pytorch</p>
+                        <a href="https://github.com/Vlhermitte/SelfSupervisedMetricLearning" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
                 </article>
             </div>
         </section>
