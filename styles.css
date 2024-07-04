@@ -203,7 +203,7 @@ section:hover {
     margin-bottom: 0;
 }
 
-.project-link {
+.styled-link {
     display: inline-block;
     background-color: #3498db;
     color: #fff;
@@ -216,14 +216,15 @@ section:hover {
     align-self: flex-start;
 }
 
-.project-link:hover {
+.styled-link:hover {
     background-color: #2980b9;
     transform: translateY(-2px);
 }
 
-.project-link i {
+.styled-link i {
     margin-right: 0.5rem;
 }
+
 
 footer {
     text-align: center;
